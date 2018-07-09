@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{#https://v3.bootcss.com/css/#grid#}
+{% load bootstrap3 %}
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="container">
+    <table class="table table-hover">
+        <tbody>
+        <tr>
+            <td>地址</td><td></td>
+        </tr>
+        <tr>
+            <label class="col-sm-2">任务ID</label>h2. Bootstrap heading
+        </tr>
+        </tbody>
+    </table>
+
+    {% bootstrap_messages %}
+    {% bootstrap_alert "Something went wrong" alert_type='danger' %}
+
+    {% buttons submit='OK' reset="Cancel" %}{% endbuttons %}
+</div>
+
+
+</body>
+</html>
