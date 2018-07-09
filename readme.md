@@ -1,8 +1,9 @@
 fortify审计
 =========
 
-利用fortify 命令行进行代码审计，并且把审计结果入库并转换为Pdf
-目前除前端页面外其他基本完成
+1. 利用fortify 命令行进行代码审计，并且把审计结果入库并转换为Pdf
+2. 目前除前端页面外其他基本完成
+3. 属于废弃项目
 
 ## 部署情况
 
@@ -48,6 +49,7 @@ js文件建模问题
 ## 运行方式
 
 ```
+# python2.7
 python manage.py celery  worker -l info # 启动worker
 ```
 
